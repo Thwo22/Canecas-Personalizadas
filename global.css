@@ -40,18 +40,19 @@ html, body {
 }
 
 .box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
     margin-top: 0em;
     background-color: #89d3c2;
 
-    height: 40em;
+    height: 20em;
 
     text-align: center;
 }
 
 .item {
+    min-width:50vw;
     margin: 10px;
 }
 .imagem {
