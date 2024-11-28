@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-topo {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background: url(imagens/GEOVANAPERSONALIZAÇÃO.png) no-repeat center/cover;
+    height: 35vh;
+    border-bottom: solid 5px #89d3c2;
+}
+
+.logo {
+    position: absolute;
+    top: 26vh;
+    left: 0.5em;
+
+    background: url(imagens/logo.jpeg) no-repeat center/cover;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+
+    border: white 3px solid;
+}
+
+.btn {
+    display: none;
+}
+
+.h1 h1 {
+    background-color: #89d3c2;
+    color: yellow;
+    margin:2em 0 0 -5px;
+    padding: 10px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    margin-top: 0em;
+    background-color: #89d3c2;
+
+    height: 40em;
+
+    text-align: center;
+}
+
+.item {
+    margin: 10px;
+}
+.imagem {
+    background-color: white;
+    height: 25.5vh;
+}
+
+.info p {
+    font-weight: bold;
+    padding: 5PX;
+    margin: 0;
+}
+.info{
+    background-color: blue;
+    display: block;
+    text-align: left;
+
+    color: white;
+    padding: 5px;
+}
