@@ -1,8 +1,24 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=Croissant+One&family=Emilys+Candy&family=Kaisei+Decol&family=Outfit:wght@100..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=Croissant+One&family=Emilys+Candy&family=Kaisei+Decol&family=Lexend+Zetta:wght@100..900&family=Outfit:wght@100..900&family=Yellowtail&display=swap');
+
+:root {
+    --font-p:"Cagliostro", sans-serif;
+    --font-h1:"Lexend Zetta", sans-serif;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+}
+h1{
+    font-family: var(--font-h1);
+    font-size: 22px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.826);
+}
+p {
+    font-family: "Cagliostro", sans-serif;
 }
 
 .imagem-topo {
