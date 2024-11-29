@@ -71,22 +71,25 @@ p {
     min-width:40vw;
     height: 243px;
     margin: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.686);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.686);
+    border-radius: 13px;
 }
 .item:hover {
     min-width:42vw;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.686);
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.686);
     transition-duration: 0.3s;
 }
 .imagem {
     background-color: #e5c489;
     height: 150px;
+    border-radius: 10px 10px 0 0;
 }
 .imagem img {
     margin-top: 4px;
     width: 95%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .info p {
@@ -102,4 +105,6 @@ p {
     color: white;
     padding: 5px;
     height: 83px;
+
+    border-radius: 0 0 13px 13px;
 }
