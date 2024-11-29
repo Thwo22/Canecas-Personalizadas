@@ -69,7 +69,6 @@ p {
 
 .item {
     min-width:40vw;
-    height: 229.4px;
     margin: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.686);
 }
@@ -80,7 +79,7 @@ p {
 }
 .imagem {
     background-color: #e5c489;
-    height: 153px;
+    height: 23vh;
 }
 .imagem img {
     margin-top: 4px;
@@ -101,5 +100,5 @@ p {
 
     color: white;
     padding: 5px;
-    height: 10vh;
+    height: 11.7vh;
 }
