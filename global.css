@@ -51,7 +51,7 @@ html, body {
 }
 
 .item {
-    min-width:50vw;
+    min-width:40vw;
     margin: 10px;
 }
 .imagem {
@@ -61,7 +61,7 @@ html, body {
 
 .info p {
     font-weight: bold;
-    padding: 5PX;
+    padding: 2PX;
     margin: 0;
 }
 .info{
