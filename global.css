@@ -11,6 +11,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #281c2c;
 }
 h1{
     font-family: var(--font-h1);
@@ -40,7 +41,7 @@ p {
     width: 7em;
     border-radius: 50%;
 
-    border: white 3px solid;
+    border:  white 3.5px solid;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.612);
 }
 
@@ -51,7 +52,7 @@ p {
 .h1 h1 {
     background-color: #89d3c2;
     color: yellow;
-    margin:3.5em 0 0 -5px;
+    margin:4em 0 0 -5px;
     padding: 10px;
 }
 
@@ -61,14 +62,14 @@ p {
     overflow-y: hidden;
     background-color: #89d3c2;
 
-    height: 20em;
+    height: 18em;
 
     text-align: center;
 }
 
 .item {
     min-width:40vw;
-    height: 32vh;
+    height: 34.5vh;
     margin: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.686);
 }
@@ -78,10 +79,12 @@ p {
     transition-duration: 0.3s;
 }
 .imagem {
-    height: 20.5vh;
+    background-color: #e5c489;
+    height: 153px;
 }
 .imagem img {
-    width: 100%;
+    margin-top: 4px;
+    width: 95%;
     height: 100%;
     object-fit: cover;
 }
@@ -92,7 +95,7 @@ p {
     margin: 0;
 }
 .info{
-    background-color: #8b1c31;
+    background-color:  #e5c489;
     display: block;
     text-align: left;
 
