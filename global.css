@@ -11,7 +11,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #281c2c;
+    background: rgb(40, 28, 44) url(imagens/Caneca-fundo.jpg) repeat;
+    background-size: 40px 40px;
+
 }
 h1{
     font-family: var(--font-h1);
@@ -80,7 +82,7 @@ p {
     transition-duration: 0.3s;
 }
 .imagem {
-    background-color: #e5c489;
+    background-color: rgb(229, 196, 137);
     height: 150px;
     border-radius: 10px 10px 0 0;
 }
