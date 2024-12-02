@@ -53,16 +53,17 @@ p {
     justify-content: center;
     align-items: center;
 
-    margin:3em 1em 0 10em;
+    margin:3em 2em 0 10em;
 }
 .btn h1 {
     background-image: linear-gradient(to left, yellow, orange); 
 
+    width: 9em;
     font-size: 16px;
     text-align: center;
     text-shadow: black 0 0 10px;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 10px;
 
     border-radius: 10px;
 }
