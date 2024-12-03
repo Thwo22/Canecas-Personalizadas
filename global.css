@@ -44,7 +44,7 @@ p {
     width: 7em;
     border-radius: 50%;
 
-    border:  white 3.5px solid;
+    border:  rgb(251, 255, 0) 3.5px solid;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.612);
 }
 
