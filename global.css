@@ -142,3 +142,11 @@ p {
 
     border-radius: 0 0 13px 13px;
 }
+
+article {
+    background-color: rgb(19, 19, 19);
+    height: 35vh;
+    color: white;
+    text-align: center;
+}
+
