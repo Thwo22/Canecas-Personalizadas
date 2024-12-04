@@ -44,7 +44,7 @@ p {
     width: 7em;
     border-radius: 50%;
 
-    border:  rgb(255, 255, 255) 3.5px solid;
+    border:  red 3.5px solid;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.612);
 }
 .btn {
