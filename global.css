@@ -47,13 +47,8 @@ p {
     border:  rgb(255, 255, 255) 3.5px solid;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.612);
 }
-
 .btn {
-    display: block;
-    justify-content: center;
-    align-items: center;
-
-    margin:1em 0 0 15em;
+    margin-left: 55vw;
 }
 .btn h1 {
     background-image: linear-gradient(to left, yellow, orange); 
