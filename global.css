@@ -40,7 +40,7 @@ p {
 .logo {
     position: absolute;
     top: 160px;
-    left: 0.5em;
+    left: 0.8em;
 
     background: url(imagens/logo.jpeg) no-repeat center/cover;
     height: 7em;
