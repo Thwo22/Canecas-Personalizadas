@@ -88,7 +88,7 @@ p {
     background-image: linear-gradient(to top, #51796f,#89d3c2);
     margin: 0 0 0 10px;
 
-    height: 18em;
+    height: 20em;
 
     text-align: center;
     border-radius: 0 0 0 8px;
@@ -97,7 +97,7 @@ p {
 
 .item {
     min-width:40vw;
-    height: 243px;
+    height: 284px;
     margin: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.686);
     border-radius: 13px;
@@ -109,7 +109,7 @@ p {
 }
 .imagem {
     background-color: rgb(229, 196, 137);
-    height: 150px;
+    height: 190px;
     border-radius: 10px 10px 0 0;
 }
 .imagem img {
@@ -129,7 +129,7 @@ p {
     font-size: 19px;
 }
 .info h1 {
-    font-size: 14px;;
+    font-size: 17px;;
 }
 .info{
     background-color:  #e5c489;
@@ -145,7 +145,7 @@ p {
 
 article {
     background: black url(imagens/footer.jpg) no-repeat center/cover;
-    height:35vh;
+    height:40vh;
     color: white;
     text-align: center;
 }
