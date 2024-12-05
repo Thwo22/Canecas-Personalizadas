@@ -129,7 +129,7 @@ p {
     font-size: 19px;
 }
 .info h1 {
-    font-size: 17px;;
+    font-size: 15.5px;;
 }
 .info{
     background-color:  #e5c489;
@@ -145,11 +145,12 @@ p {
 
 article {
     background: black url(imagens/footer.jpg) no-repeat center/cover;
-    height:40vh;
+    height:43vh;
     color: white;
     text-align: center;
+    margin-top: 2em;
+    border-top: solid 4px #89d3c2;
 }
-
 section img, p, article h1 {
     padding: 10px;
 }
