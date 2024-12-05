@@ -52,7 +52,6 @@ p {
 }
 .btn {
     margin: 20px 0 0 55vw
-
 }
 .btn h1 {
     background-image: linear-gradient(to left, yellow, orange); 
@@ -123,14 +122,15 @@ p {
     font-weight: bolder;
     padding: 0;
     margin: 0;
+    text-align: center;
     text-shadow: 0 0 5px black;
 }
 .info p {
-    font-size: 19px;
+    font-size: 21px;
     padding: 5px;
 }
 .info h1 {
-    font-size: 15px;
+    font-size: 13px;
 }
 .info{
     background-color:  #e5c489;
@@ -159,5 +159,70 @@ section img, p, article h1 {
 .contato img:hover {
     width:50px;
     height:50px;
+}
+
+/*TABLETS*/
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .imagem-topo{
+        height: 320px;
+    }
+    .btn {
+        margin: 45px 0 0 60vw
+    }
+    .btn h1 {
+        width: 30vw;
+        height: 4vh;
+        font-size: 20px;  
+        padding: 10px;
+    }
+    .logo {
+        top: 240px;
+        height: 10em;
+        width: 10em;
+    }
+    .h1 h1 {
+        margin: 3em 0 -5px 10px;
+    }
+    .box {
+        height: 28em;
+    
+        text-align: center;
+        border-radius: 0 0 0 8px;
+        box-shadow: black 0 0 5px inset;
+    }
+    .imagem > img {
+        height:100%
+    }
+    .imagem {
+        height: 300px;
+    }
+    .info {
+        height: 120px;
+    }
+    .info h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+    .info p {
+        font-size: 30px;
+        text-align: center;
+    }
+    article {
+        height:29vh;
+    }
+    section img, p, article h1 {
+        font-size: 25px;
+        padding: 5px;
+    }
+    .contato img {
+        width:80px;
+        height:80px;
+    }
+    .contato img:hover {
+        width:90px;
+        height:90px;
+    }
+
 }
 
