@@ -223,6 +223,75 @@ section img, p, article h1 {
         width:90px;
         height:90px;
     }
+}
+
+ @media screen and (min-width: 1024px) and (max-width:1200px) {
+    .imagem-topo{
+        height: 380px;
+    }
+    .btn {
+        margin: 45px 0 0 60vw
+    }
+    .btn h1 {
+        width: 30vw;
+        height: 4vh;
+        font-size: 20px;  
+        padding: 10px;
+    }
+    .logo {
+        top: 300px;
+        height: 10em;
+        width: 10em;
+    }
+    .h1 h1 {
+        margin: 3em 0 -5px 10px;
+    }
+    .box {
+        height: 30em;
+    
+        text-align: center;
+        border-radius: 0 0 0 8px;
+        box-shadow: black 0 0 5px inset;
+    }
+    .item {
+        min-width:26vw;
+        max-width: 26vw;
+    }
+    .item:hover {
+        min-width:27vw;
+    }
+    .imagem > img {
+        height:100%
+    }
+    .imagem {
+        height: 300px;
+    }
+    .info {
+        height: 150px;
+    }
+    .info h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .info p {
+        font-size: 30px;
+        text-align: center;
+    }
+    article {
+        height:29vh;
+    }
+    section img, p, article h1 {
+        font-size: 25px;
+        padding: 5px;
+    }
+    .contato img {
+        width:80px;
+        height:80px;
+    }
+    .contato img:hover {
+        width:90px;
+        height:90px;
+    }
 
 }
 
