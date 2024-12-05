@@ -127,9 +127,10 @@ p {
 }
 .info p {
     font-size: 19px;
+    padding: 5px;
 }
 .info h1 {
-    font-size: 13.5px;;
+    font-size: 15px;
 }
 .info{
     background-color:  #e5c489;
