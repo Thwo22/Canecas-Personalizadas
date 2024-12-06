@@ -228,6 +228,7 @@ section img, p, article h1 {
     }
 }
 
+/*TELAS MEDIAS*/
  @media screen and (min-width: 1025px) and (max-width:1200px) {
     .imagem-topo{
         height: 62vh;
@@ -299,6 +300,7 @@ section img, p, article h1 {
 
 }
 
+/*COMPUTADORES E TELAS MAIORES*/
 @media screen and (min-width:1201px) {
     .imagem-topo{
         height: 54vh;
