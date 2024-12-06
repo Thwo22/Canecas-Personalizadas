@@ -98,7 +98,6 @@ p {
     min-width:45vw;
     height: 38vh;
     margin: 10px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.686);
     border-radius: 13px;
 }
 .item:hover {
@@ -300,7 +299,7 @@ section img, p, article h1 {
 
 }
 
-/*COMPUTADORES E TELAS MAIORES*/
+/*COMPUTADORES E TELAS MARIORES*/
 @media screen and (min-width:1201px) {
     .imagem-topo{
         height: 54vh;
