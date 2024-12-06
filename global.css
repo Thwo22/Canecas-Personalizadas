@@ -95,14 +95,14 @@ p {
 }
 
 .item {
-    min-width:40vw;
-    height: 284px;
+    min-width:45vw;
+    height: 38vh;
     margin: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.686);
     border-radius: 13px;
 }
 .item:hover {
-    min-width:42vw;
+    min-width:46vw;
     box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.686);
     transition-duration: 0.3s;
 }
@@ -165,7 +165,7 @@ section img, p, article h1 {
 
 @media screen and (min-width: 768px) and (max-width:1024px){
     .imagem-topo{
-        height: 320px;
+        height: 20em;
     }
     .btn {
         margin: 45px 0 0 60vw
@@ -191,6 +191,9 @@ section img, p, article h1 {
         border-radius: 0 0 0 8px;
         box-shadow: black 0 0 5px inset;
     }
+    .item {
+        height: 34.5vh;
+    }
     .imagem > img {
         height:100%
     }
@@ -209,7 +212,7 @@ section img, p, article h1 {
         text-align: center;
     }
     article {
-        height:29vh;
+        height:32vh;
     }
     section img, p, article h1 {
         font-size: 25px;
@@ -225,16 +228,16 @@ section img, p, article h1 {
     }
 }
 
- @media screen and (min-width: 1024px) and (max-width:1200px) {
+ @media screen and (min-width: 1025px) and (max-width:1200px) {
     .imagem-topo{
-        height: 380px;
+        height: 62vh;
     }
     .btn {
-        margin: 45px 0 0 60vw
+        margin: 45px 0 0 40vw
     }
     .btn h1 {
-        width: 30vw;
-        height: 4vh;
+        width: 20vw;
+        height: 7vh;
         font-size: 20px;  
         padding: 10px;
     }
@@ -254,6 +257,7 @@ section img, p, article h1 {
         box-shadow: black 0 0 5px inset;
     }
     .item {
+        height: 68.5vh;
         min-width:26vw;
         max-width: 26vw;
     }
@@ -278,7 +282,7 @@ section img, p, article h1 {
         text-align: center;
     }
     article {
-        height:29vh;
+        height:52vh;
     }
     section img, p, article h1 {
         font-size: 25px;
@@ -289,8 +293,79 @@ section img, p, article h1 {
         height:80px;
     }
     .contato img:hover {
-        width:90px;
-        height:90px;
+        width:85px;
+        height:85px;
+    }
+
+}
+
+@media screen and (min-width:1201px) {
+    .imagem-topo{
+        height: 54vh;
+    }
+    .btn {
+        margin: 45px 0 0 40vw
+    }
+    .btn h1 {
+        width: 20vw;
+        height: 7vh;
+        font-size: 20px;  
+        padding: 10px;
+    }
+    .logo {
+        top: 320px;
+        height: 10em;
+        width: 10em;
+    }
+    .h1 h1 {
+        margin: 3em 0 -5px 10px;
+    }
+    .box {
+        height: 30em;
+    
+        text-align: center;
+        border-radius: 0 0 0 8px;
+        box-shadow: black 0 0 5px inset;
+    }
+    .item {
+        height: 57vh;
+        min-width:26vw;
+        max-width: 26vw;
+    }
+    .item:hover {
+        min-width:27vw;
+    }
+    .imagem > img {
+        height:100%
+    }
+    .imagem {
+        height: 300px;
+    }
+    .info {
+        height: 150px;
+    }
+    .info h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .info p {
+        font-size: 30px;
+        text-align: center;
+    }
+    article {
+        height:55vh;
+    }
+    section img, p, article h1 {
+        font-size: 25px;
+        padding: 5px;
+    }
+    .contato img {
+        width:80px;
+        height:80px;
+    }
+    .contato img:hover {
+        width:85px;
+        height:85px;
     }
 
 }
